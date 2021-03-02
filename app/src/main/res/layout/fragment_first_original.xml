@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ampsPage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="top|fill_vertical"
+    android:layout_weight="1"
+    android:background="#FF0000"
+    android:backgroundTint="#FF0000"
+    android:foreground="@color/purple_200"
+    android:foregroundGravity="fill_vertical"
+    android:foregroundTint="#FF0000"
+    android:orientation="vertical"
+    app:layout_anchorGravity="fill_vertical"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    tools:context=".FirstFragment">
+
+    <Button
+        android:id="@+id/button_first"
+        android:layout_width="88dp"
+        android:layout_height="48dp"
+        android:text="@string/next" />
+
+</LinearLayout>
